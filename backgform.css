@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    display: flex;  /* Memastikan body menggunakan Flexbox */
+    justify-content: center;  /* Agar form berada di tengah horizontal */
+    align-items: center;  /* Agar form berada di tengah vertikal */
+    height: 100vh;  /* Pastikan tinggi body 100% viewport */
+    background: url('background.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+.wrapper {
+    width: 420px;
+    background: rgba(0, 0, 0, 0.4); /* Tambahkan transparansi agar lebih terlihat */
+    color: white;
+    border-radius: 10px;
+    padding: 30px 40px;
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(35px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: center; /* Agar teks di dalamnya rata tengah */
+}
